@@ -1,0 +1,20 @@
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-image: url(./assets/img/whatsapp.png);    
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe57;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
