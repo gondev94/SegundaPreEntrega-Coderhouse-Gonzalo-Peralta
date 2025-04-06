@@ -1,154 +1,149 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="es">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nutrición, Salud, Alimentación, Consejos nutricionales">
     <title>Nutrición | Carolina Beatríz Fernández Barrios</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css"> <!-- Archivo CSS compilado de SCSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  </head>
+</head>
 
-  <body>
-    <header class="position-sticky top-0 z-3 ">
+<body>
+    <header class="position-sticky top-0 z-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./favicon.ico" alt="Logo de Nutrición" width="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/planes_alimenticios.html">Planes Alimenticios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/consejos_nutricionales.html">Consejos Nutricionales</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/about.html">Acerca de mí</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
-          <div class="container-fluid ">
-            <a class="navbar-brand" href="../index.html">              
-              <img src="./favicon.ico" alt="logo de una profesional que estudio la carrera nutrición" width="100px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="./pages/planes_alimenticios.html">Planes Alimenticios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/consejos_nutricionales.html">Consejos Nutricionales</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/about.html">Acerca de mí</a>
-                </li>
-              </ul>
+    <main class="container_index">
+        <section>
+            <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/1titulo.png" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/2parrafo.png" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <h1 class="titulo_principal m-4">Consejos alimenticios para tratar</h1>
+
+        <div class="botones_inicio d-flex flex-wrap justify-content-center gap-2 mt-3">
+            <a href="./pages/planes_alimenticios.html#diabetes" class="boton btn">Diabetes</a>
+            <a href="./pages/planes_alimenticios.html#hipertensión" class="boton btn">Hipertensión</a>
+            <a href="./pages/planes_alimenticios.html#colesterol" class="boton btn">Colesterol</a>
+        </div>
+
+        <section class="habitos_index m-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./assets/img/203328173-alimentos-saludables-en-forma-de-corazón-sobre-fondo-de-madera-concepto-de-alimentación-saludable.jpg" class="card-img-top" alt="Hábitos saludables">
+                    <div class="card-body">
+                        <h2 class="card-titles">Los hábitos son estrategia, no fuerza de voluntad</h2>
+                        <p class="card-texts">Pequeños cambios crean grandes resultados. Elegí mejor cada día.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                    <img src="./assets/img/gentecomiendo2.webp" class="card-img-top" alt="Hábitos alimenticios">
+                    <div class="card-body">
+                        <h2 class="card-titles">Tus hábitos te construyen</h2>
+                        <p class="card-texts">Podés cambiar y elegir mejor. ¿Quién tiene el control: tus hábitos o vos?</p>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+
+        <section class="container_index_link mt-5">
+          <div class="container text-center">
+            <div class="row justify-content-md-center">
+              <div class="col-md-4 text-center">
+                <h3 class="titles">No se trata de comer menos, sino de comer mejor</h3>
+                <p class="p_index">Acá podrás encontrar algunos consejos</p>
+                <a href="./pages/consejos_nutricionales.html" class="boton btn btn-success">Consejos nutricionales</a>
+              </div>
+              <div class="col-md-4 ">
+                <img src="./assets/img/artworks-DWjkNvkv1xgyqCkw-nzVS2Q-t500x500.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-4">
+                <h3 class="titles">¿Listo para empezar tu cambio?</h3>
+                <p class="p_index">Hablemos y diseñemos juntos un plan que funcione para vos.</p>
+                <a href="./pages/contacto.html" class="boton btn btn-success">Contactame.</a>
+              </div>
             </div>
           </div>
-      </nav>
-  </header>
+          </section>
+  
+
+        <h2 class="title_opinion mt-4 text-center">Opinión de los pacientes</h2>
+        <div class="container text-center mt-4 mb-4">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="./assets/img/IMG_20250201_224707.jpg" class="card-img-top" alt="Testimonio 1">
+                        <div class="card-body">
+                            <h3 class="card-titles">Transformación real</h3>
+                            <p class="card-texts">Aprendí a comer sin culpas ni restricciones. Más energía, mejor descanso y un cambio real sin esfuerzo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="./assets/img/IMG_20250201_224722.jpg" class="card-img-top" alt="Testimonio 2">
+                        <div class="card-body">
+                            <h3 class="card-titles">Más allá de la alimentación</h3>
+                            <p class="card-texts">No es dieta, es bienestar. Ahora disfruto la comida sin miedo y me siento mejor que nunca.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="d-flex justify-content-end">
+      <a href="https://wa.me/5491112345678" target="_blank" class="whatsapp-float">
+        <img src="./assets/img/whatsapp.png" width="50px" alt="">
+          <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </section>
     
-    <main class="container">
-      <section>
-        <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/1titulo.png" class="d-block w-100" alt="Imagen 1">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/2parrafo.png" class="d-block w-100" alt="Imagen 2">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
-        </div>
-      </section>
 
-      <section class="text-center mt-4">
-        <h2>Consejos alimenticios para tratar:</h2>
-        <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
-          <a href="./pages/planes_alimenticios.html#diabetes" class="btn btn-success" id="botondiabetes">Diabetes</a>
-          <a href="./pages/planes_alimenticios.html#hipertensión" class="btn btn-success" id="botonhipertensión">Hipertensión</a>
-          <a href="./pages/planes_alimenticios.html#colesterol" class="btn btn-success" id="botoncolesterol">Colesterol</a>
-        </div>
-      </section>
-
-      <section class="row row-cols-1 row-cols-md-2 g-4 my-4">
-        <div class="col">
-          <div class="card">
-            <img src="./assets/img/203328173-alimentos-saludables-en-forma-de-corazón-sobre-fondo-de-madera-concepto-de-alimentación-saludable.jpg" class="card-img-top" alt="Imagen hábitos saludables">
-            <div class="card-body">
-              <h5 class="card-title">Los hábitos son estrategia, no fuerza de voluntad</h5>
-              <p class="card-text">Pequeños cambios crean grandes resultados. Elegí mejor cada día.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./assets/img/gentecomiendo2.webp" class="card-img-top" alt="Imagen hábitos alimenticios">
-            <div class="card-body">
-              <h5 class="card-title">Tus hábitos te construyen</h5>
-              <p class="card-text">Podés cambiar y elegir mejor. ¿Quién tiene el control: tus hábitos o vos?</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container mt-5">
-        <div class="container text-center">
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 text-center">
-              <h3>No se trata de comer menos, sino de comer mejor</h3>
-              <p>Acá podrás encontrar algunos consejos</p>
-              <a href="./pages/consejos_nutricionales.html" class="btn btn-success">Consejos nutricionales</a>
-            </div>
-            <div class="col-md-4 ">
-              <img src="./assets/img/artworks-DWjkNvkv1xgyqCkw-nzVS2Q-t500x500.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-4 text-center">
-              <h3>¿Listo para empezar tu cambio?</h3>
-              <p>Hablemos y diseñemos juntos un plan que funcione para vos.</p>
-              <a href="./pages/contacto.html" class="btn btn-success">Contactame.</a>
-            </div>
-          </div>
-        </div>
-
-      </section>
-      <h2 class="title text-center mt-3">Opinión de los pacientes</h2>
-      <div class="container text-center mt-4 mb-4">
-        <div class="row justify-content-center">
-          <div class="col-md-5">
-            <div class="card">
-              <img src="./assets/img/IMG_20250201_224707.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">Transformación real</h3>
-                <p class="card-text">Aprendí a comer sin culpas ni restricciones. Más energía, mejor descanso y un cambio real sin esfuerzo. ¡100% recomendado!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="card">
-              <img src="./assets/img/IMG_20250201_224722.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">Más allá de la alimentación</h3>
-                <p class="card-text">No es dieta, es bienestar. Ahora disfruto la comida sin miedo y me siento mejor que nunca. ¡La mejor decisión que tomé!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-
-      <section class="d-flex justify-content-end">
-        <a href="https://wa.me/5491112345678" target="_blank" class="whatsapp-float">
-          <img src="./assets/img/whatsapp.png" width="50px" alt="">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-      </section>   
-      
     <footer class="bg-light text-dark pt-4 ">
       <div class="container mb-4">
           <div class="row text-center text-md-start">
@@ -193,6 +188,8 @@
           </div>
       </div>
   </footer>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
+
 </html>

@@ -1,0 +1,27 @@
+@import 'variables';
+
+.boton {
+  background-color: $color-primario;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($color-primario, 10%);
+  }
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-image: url(./assets/img/whatsapp.png);
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    &:hover{background-color: #1ebe57;}
+  }

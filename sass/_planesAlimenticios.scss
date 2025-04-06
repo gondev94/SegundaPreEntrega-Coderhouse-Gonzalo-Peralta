@@ -1,0 +1,38 @@
+.titles {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 1rem;
+  }
+  
+  .title-section {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1b5e20;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn-custom {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    background-color: #43a047;
+    border: none;
+    &:hover {
+      background-color: #388e3c;
+    }
+  }
+  
+  ul {
+    
+    padding: 0;
+    .lista_receta_planes {
+      padding: 12px;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      border-bottom: 3px solid gray;
+      list-style: none;
+      
+    }
+  }
+  

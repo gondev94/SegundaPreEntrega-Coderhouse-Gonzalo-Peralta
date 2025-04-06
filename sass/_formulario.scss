@@ -1,0 +1,58 @@
+.formulario-contacto {
+    background-color: $color-bg;
+    color: $color-text;
+    padding: 3rem;
+
+
+    .form-container {
+      max-width: 800px;
+      justify-self: center;
+    }
+  
+    h2, p {
+      text-align: center;
+    }
+  
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      background-color: $color-bg;
+      border: 1px solid $color-border;
+      border-radius: $border-radius;
+      
+    }
+  
+    .form-group,
+    .form-group-half {
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+
+      }
+  
+      input,
+      textarea {
+        @include input-style;
+      }
+    }
+  
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+  
+      .form-group-half {
+        flex: 1;
+      }
+    }
+  
+    .form-buttons {
+      @include flex-between;
+  
+      button {
+        @include button-style;
+      }
+    }
+  }
+  
