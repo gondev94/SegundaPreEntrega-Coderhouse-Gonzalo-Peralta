@@ -9,6 +9,8 @@
       color: $color-primario;
       font-size: 2.5rem;
       margin-bottom: 30px;
+      &:hover{transition: transform 0.3s;
+        transform: scale(1.05);}
     }
   
     .videos-contenedor {
@@ -31,6 +33,7 @@
   
   .tips-section {
     padding: 30px;
+
   
     .tips-grid {
       display: grid;
@@ -38,11 +41,16 @@
       gap: 30px;
   
       .tips-col {
+
+
         h2 {
           font-size: 2.7rem;
           color: $color-secundario;
           margin-top: 20px;
           text-align: center;
+          &:hover{transition: transform 0.3s;
+            transform: scale(1.05);}
+
         }
   
         p, ol {
@@ -50,12 +58,13 @@
           color: $color-texto;
           text-align: center;
           border-bottom: 3px solid gray;
+          &:hover{transition: transform 0.3s;
+            transform: scale(1.05);}
           }
   
         ol {
           padding-left: 20px;
           }
-      
       }
     }
   }

@@ -8,8 +8,12 @@
     color: $color-primario;
     text-align: map-get($text-align-map, center); //mapa aplicado//
     font-size: 2rem;
+    &:hover{transition: transform 0.3s;
+      transform: scale(1.05);}
     .botones_inicio {
       @include flex-center(row, 10px);
+
+      
     }
     
   }
@@ -38,10 +42,10 @@
 .title_opinion{
   color: $color-secundario;
   font-size: 2rem;
+  &:hover{transition: transform 0.3s;
+    transform: scale(1.05);}
 
 }
-
-
 
 
 

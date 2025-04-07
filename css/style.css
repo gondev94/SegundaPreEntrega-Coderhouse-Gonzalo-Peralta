@@ -73,6 +73,10 @@
   text-align: center;
   font-size: 2rem;
 }
+.container_index .titulo_principal:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
 .container_index .titulo_principal .botones_inicio {
   display: flex;
   flex-direction: row;
@@ -106,6 +110,10 @@
   color: #1da524;
   font-size: 2rem;
 }
+.title_opinion:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
 
 /*mapa */
 .consejos-section {
@@ -116,6 +124,10 @@
   color: #28a745;
   font-size: 2.5rem;
   margin-bottom: 30px;
+}
+.consejos-section .titulo_principal:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
 }
 .consejos-section .videos-contenedor {
   display: flex;
@@ -152,11 +164,19 @@
   margin-top: 20px;
   text-align: center;
 }
+.tips-section .tips-grid .tips-col h2:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
 .tips-section .tips-grid .tips-col p, .tips-section .tips-grid .tips-col ol {
   font-size: 1.6rem;
   color: #2d6e36;
   text-align: center;
   border-bottom: 3px solid gray;
+}
+.tips-section .tips-grid .tips-col p:hover, .tips-section .tips-grid .tips-col ol:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
 }
 .tips-section .tips-grid .tips-col ol {
   padding-left: 20px;
@@ -191,6 +211,10 @@
   color: #2e7d32;
   margin-bottom: 1rem;
 }
+.titles:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
 
 .title-section {
   font-size: 1.5rem;
@@ -216,9 +240,26 @@ ul {
 ul .lista_receta_planes {
   padding: 12px;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: #1da524;
   border-bottom: 3px solid gray;
   list-style: none;
+}
+ul .lista_receta_planes:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
+
+ol {
+  color: black;
+  list-style: circle;
+}
+ol li {
+  color: #1da524;
+}
+ol:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
 }
 
 .formulario-contacto {

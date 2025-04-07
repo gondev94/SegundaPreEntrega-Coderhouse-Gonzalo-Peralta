@@ -3,6 +3,9 @@
     font-weight: bold;
     color: #2e7d32;
     margin-bottom: 1rem;
+    &:hover{
+      transition: transform 0.3s;
+      transform: scale(1.05);}
   }
   
   .title-section {
@@ -24,15 +27,32 @@
   }
   
   ul {
+      padding: 0;
     
-    padding: 0;
     .lista_receta_planes {
       padding: 12px;
       margin-bottom: 0.5rem;
-      font-size: 1rem;
+      font-size: 1.5rem;
+      color: $color-secundario;
       border-bottom: 3px solid gray;
+
       list-style: none;
+      &:hover{
+        transition: transform 0.3s;
+        transform: scale(1.05);
+      }
       
     }
   }
-  
+  ol{
+    li{
+      color: $color-secundario;
+
+    }
+      color: black;
+    &:hover{transition: transform 0.3s;
+      transform: scale(1.05);}
+      list-style: circle;
+
+  }
+
