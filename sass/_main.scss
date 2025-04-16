@@ -25,6 +25,7 @@
   .container_index_link {
     @include flex-center(row, 40px);
     text-align: center;
+    position: fixed;
   
     .titles {
       font-size: 1.8rem;
